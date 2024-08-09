@@ -33,38 +33,41 @@ python stego_tool.py
 ## Menu Options
 Embed Python Script into an Image:
 
-### Select a Python script (.py file) and an image (.png file).
+- Select a Python script (.py file) and an image (.png file).
 The script will compile the Python code to bytecode (.pyc) and embed it into the selected image.
 You will be prompted to enter the output file name for the encoded image.
 Execute Embedded Code from an Image:
 
-### Select an image file (.png) that contains embedded Python bytecode.
+- Select an image file (.png) that contains embedded Python bytecode.
 The script will extract the bytecode, execute it, and display the result.
 Execute and Delete Image with Embedded Code:
 
-### Select an image file (.png) that contains embedded Python bytecode.
+- Select an image file (.png) that contains embedded Python bytecode.
 The script will extract and execute the bytecode, then delete both the image file and the temporary bytecode file.
-Exit: Exit the tool.
+
+```Exit: Exit the tool.```
 
 ## Example Workflow
 Embed a Python Script:
 
 Place a .py script in the same directory as the tool.
-Run the tool and select option 1.
+- Run the tool and select option 1.
 Choose the script and an image file (.png) to hide the script in.
 Specify an output file name for the encoded image.
 Execute Embedded Script:
 
 ### Run the tool and select option 2.
-Choose the encoded image file.
+- Choose the encoded image file.
 The tool will execute the embedded script.
 Execute and Delete:
 
 ### Run the tool and select option 3.
-Choose the encoded image file.
+- Choose the encoded image file.
 The tool will execute the embedded script and delete the image.
 How It Works
-Embedding:
+
+
+## Embedding:
 
 The Python script is compiled into bytecode (.pyc).
 The bytecode is converted into a bit array.
@@ -74,7 +77,9 @@ Decoding:
 The embedded bit array is extracted from the image pixels.
 The bit array is converted back into bytecode.
 The bytecode is then executed.
-Limitations
+
+
+## Limitations
 The image must be large enough to contain the bytecode. If the bytecode is too large for the image, the tool will raise an error.
 The tool currently supports .png images.
 
