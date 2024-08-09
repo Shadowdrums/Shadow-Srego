@@ -23,6 +23,10 @@ You can install the required packages using pip:
 ```bash
 pip install Pillow bitarray
 ```
+or you can use the requirements.txt
+```bash
+pip install requirements.txt
+```
 
 ## Usage
 Run the script from the command line:
