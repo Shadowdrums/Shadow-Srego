@@ -1,4 +1,4 @@
-# Shadow-Srego
+# Shadow-Stego
 embed python code into images and execute the code from an image
 
 # Python Script Steganography Tool
