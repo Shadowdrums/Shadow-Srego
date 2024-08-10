@@ -37,7 +37,7 @@ python shadow-stego-rev.py
 ## Menu Options
 Embed Python Script into an Image:
 
-- Select a Python script (.py file) and an image (.png file).
+- Select a Python script (.py file) and an image (.png file). (the image file and python file to be used must be placed in the same directory as the stego script.)
 The script will compile the Python code to bytecode (.pyc) and embed it into the selected image.
 You will be prompted to enter the output file name for the encoded image.
 Execute Embedded Code from an Image:
