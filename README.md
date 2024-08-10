@@ -31,7 +31,7 @@ pip install requirements.txt
 ## Usage
 Run the script from the command line:
 ```sh
-python stego_tool.py
+python Shadow-Stego-Rev.py
 ```
 
 ## Menu Options
